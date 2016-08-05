@@ -11,7 +11,7 @@ collections:
 email: info@keiyasui.com
 description: |
   Noday website
-baseurl: ''
+baseurl: 
 url: http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
