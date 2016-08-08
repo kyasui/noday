@@ -27,6 +27,7 @@ Content:
     Custard to final decisions that have made big effects on the future. They have
     used our data for walking franchisees and employees through a more clear understanding
     of their customers mind and what they can do to better serve them.
+layout: case-study-single
 ---
 
 ![andys.png](/uploads/andys.png)
