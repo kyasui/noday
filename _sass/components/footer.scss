@@ -1,0 +1,67 @@
+.site-footer {
+  padding-top: 105px;
+  padding-bottom: 105px;
+
+  background: $dark-gray;
+
+  .footer-logo {
+    max-width: 70px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .footer-ticker {
+    min-height: 350px;
+
+    position: relative;
+  }
+
+  .ticker-content {
+    @extend .is-vertical-center;
+    left: 0;
+    right: 0;
+
+    opacity: 0.0;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &.is-visible {
+      opacity: 1.0;
+    }
+  }
+
+  .ticker-link {
+    font-size: 136px;
+    line-height: 136px;
+
+    color: $white;
+
+    text-decoration: none;
+
+    font-weight: 900;
+
+    display: inline-block;
+
+    margin: 0 50px;
+
+    position: relative;
+
+    border-bottom: 10px solid rgba(255,255,255,0.0);
+
+    &:hover {
+      border-bottom: 10px solid $white;
+    }
+  }
+
+  .site-credit {
+    color: $white;
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 18px;
+
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,79 @@
+.case-studies-section {
+  background-image: url(../images/illustrations/bg-pattern.png);
+  background-color: $purple;
+  background-position: center center;
+  .section-header {
+    padding-top: 105px;
+
+    .section-header-title {
+      font-size: 48px;
+      line-height: 48px;
+      color: $white;
+    }
+
+    .section-header-sub {
+      color: $white;
+    }
+  }
+
+  .section-content {
+    background: rgba(0,0,0, 0.2);
+    
+    margin-top: 105px;
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+    @extend .clearfix;
+  }
+
+  .case-study {
+    float: left;
+
+    .case-study-header {
+      background: $white;
+      height: 200px;
+      padding: 105px 10%;
+
+      position: relative;
+    }
+
+    &:nth-child(odd) {
+      .case-study-header {
+        background: $light-gray;
+      }
+    }
+  }
+
+  .case-study-content {
+    padding: 10%;
+  }
+
+  .case-study-title {
+    font-size: 20px;
+    line-height: 20px;
+
+    color: $white;
+  }
+
+  .case-study-body {
+    color: $white;
+  }
+
+  .case-study-image {
+    display: block;
+
+    max-width: 300px;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+  }
+
+  .case-study-link {
+    font-weight: 900;
+    text-decoration: none;
+
+    color: $white;
+  }
+}

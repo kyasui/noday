@@ -1,0 +1,105 @@
+.what-we-do-section {
+  .section-header {
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+    background-image: url(../images/illustrations/bg-pattern.png);
+    background-color: $purple;
+    background-position: center center;
+
+    .section-header-title {
+      font-size: 48px;
+      line-height: 48px;
+      color: $white;
+    }
+
+    .section-header-sub {
+      color: $white;
+    }
+  }
+
+  .section-content {
+    background: $white;
+  }
+
+  .slider {
+    padding-top: 105px;
+    padding-bottom: 105px;
+  }
+
+  .slide {
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+    .fluid-width {
+      @extend .clearfix;
+    }
+  }
+
+  .slide-title {
+    font-size: 42px;
+    line-height: 42px;
+
+    color: $purple;
+  }
+
+  .slide-body {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .slide-image {
+    width: 66.66%;
+    float: left;
+
+    img {
+      max-width: 800px;
+      width: 100%;
+      display: block;
+    }
+
+    position: relative;
+
+    .slide-number {
+      color: $purple;
+      font-size: 312px;
+      line-height: 312px;
+
+      position: absolute;
+      right: 10px;
+
+      font-weight: 900;
+
+      text-align: center;
+
+      @extend .is-vertical-center;
+
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .listen-slide {
+    .slide-number {
+      right: 25%;
+    }
+  }
+
+  .dig-slide {
+    .slide-number {
+      right: 18%;
+      margin-top: 20px;
+    }
+  }
+
+  .tell-a-story-slide {
+    .slide-number {
+      right: 30%;
+    }
+  }
+
+  .slide-content {
+    float: left;
+    width: 30.33%;
+    margin-left: 3%;
+  }
+}

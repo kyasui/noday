@@ -1,0 +1,111 @@
+.nav-menu {
+  display: none;
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: 1000;
+
+  &.is-showing {
+    display: block;
+  }
+
+  .navbar-toggle {
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    opacity: 1.0;
+
+    z-index: 1010;
+
+    .icon-bar {
+      background: $white;
+    }
+
+    &.collapsed {
+      opacity: 0.0;
+    }
+  }
+
+  .is-fixed & {
+    .navbar-toggle {
+      top: 15px;
+    }
+  }
+
+  .menu-content {
+    left: 0;
+    right: 0;
+
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .menu-contact-section {
+    width: 33.33%;
+
+    background-color: $purple;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    .title {
+      color: $white;
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    .mail-link {
+      color: $dark-gray;
+      text-decoration: none;
+
+      font-size: 36px;
+      line-height: 36px;
+    }
+  }
+
+  .menu-link-section {
+    width: 66.66%;
+
+    background-color: $dark-gray;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .menu-logo {
+    display: block;
+    max-width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .menu-link {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 72px;
+    line-height: 72px;
+
+    color: $white;
+
+    text-decoration: none;
+    font-weight: 900;
+
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  .animate-this {
+    opacity: 0.0;
+  }
+}
