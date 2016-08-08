@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  case-studies:
+    title: case-studies
+    output: true
 email: info@keiyasui.com
 description: |
   Noday website
