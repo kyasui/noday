@@ -77,3 +77,106 @@
     color: $white;
   }
 }
+
+.case-studies-single-section {
+  background-image: url(../images/illustrations/bg-pattern.png);
+  background-color: $purple;
+  background-position: center center;
+  .section-header {
+    padding-top: 105px;
+
+    .section-header-title {
+      font-size: 48px;
+      line-height: 48px;
+      color: $white;
+    }
+
+    .section-header-sub {
+      color: $white;
+    }
+  }
+
+  .case-study-title {
+    font-size: 48px;
+    line-height: 48px;
+    color: $white;
+  }
+
+  .case-study-single-header {
+    background: $white;
+
+    padding: 5%;
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+
+    margin-bottom: 55px;
+  }
+
+  .section-content {
+    // background: rgba(0,0,0, 0.20);
+
+    padding-top: 55px;
+    padding-bottom: 105px;
+
+    @extend .clearfix;
+  }
+
+  .fluid-width {
+    @extend .clearfix;
+  }
+
+  .section-header-title {
+    font-size: 38px;
+    line-height: 44px;
+
+    color: $white;
+
+    margin-bottom: 55px;
+
+    @media screen and (min-width: $mobile-break) {
+      max-width: 33.33%;
+      float: left;
+      width: 100%;
+
+      margin-bottom: 0px;
+    }
+  }
+
+  .section-header-column {
+    color: $white;
+
+    @media screen and (min-width: $mobile-break) {
+      max-width: 66.66%;
+      float: right;
+      width: 100%;
+    }
+  }
+
+  .body-copy {
+    color: $white;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+
+  .call-out {
+    font-weight: 900;
+    text-transform: uppercase;
+
+    font-size: 24px;
+    line-height: 24px;
+
+    margin-bottom: 28px;
+  }
+
+  .strong {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
