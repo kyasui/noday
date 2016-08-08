@@ -8,6 +8,21 @@ collections:
   uploads:
     title: Uploads
     output: true
+  case-study:
+    title: case-studies
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: case-study
+  values:
+    layout: case-study-single
+    Logo:
+      logo-image: ''
+    Short Description: ''
+    Content:
+    - Title: ''
+      Paragraph: ''
 email: info@keiyasui.com
 description: |
   Noday website

@@ -1,0 +1,31 @@
+{% include fixed-nav.html %}
+
+<section class="site-section case-studies-single-section">
+
+  <div class="section-header">
+    <div class="fluid-width">
+      <h3 class="section-header-title third-width">{{ page.title }}</h3>
+      <div class="section-header-column">
+        <header class="case-study-single-header">
+          <img class="case-study-image" src="{{ page.Logo['logo-image'] }}" alt="{{ page.title }}" />
+        </header>
+        <h3 class="case-study-title"></h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section-content">
+    {% for block in page.Content %}
+    <div class="fluid-width content-container">
+      <h3 class="section-header-title third-width"></h3>
+      <div class="section-header-column">
+        <h3 class="body-copy call-out">{{ block.Title }}</h3>
+        <p class="body-copy">{{ block.Paragraph }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% include footer.html %}
