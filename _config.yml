@@ -12,7 +12,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "case-studies"
+      type: "case-study"
     values:
       layout: "case-study-single"
       Logo: 
