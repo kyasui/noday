@@ -52,6 +52,8 @@
     font-size: 20px;
     line-height: 20px;
 
+    text-transform: uppercase;
+
     color: $white;
   }
 
@@ -139,8 +141,9 @@
     margin-bottom: 55px;
 
     @media screen and (min-width: $mobile-break) {
-      max-width: 33.33%;
+      max-width: 30.33%;
       float: left;
+      padding-right: 3%;
       width: 100%;
 
       margin-bottom: 0px;

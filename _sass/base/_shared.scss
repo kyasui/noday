@@ -20,12 +20,14 @@
 .third-width {
   @media screen and (min-width: $mobile-break) {
     max-width: 33.33%;
+    width: 100%;
   }
 }
 
 .half-width {
   @media screen and (min-width: $mobile-break) {
     max-width: 50%;
+    width: 100%;
   }
 }
 
