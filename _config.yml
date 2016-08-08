@@ -11,9 +11,16 @@ collections:
 email: info@keiyasui.com
 description: |
   Noday website
-baseurl: 
-url: http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+exclude:
+- node_modules
+- package.json
+- gulpfile.js
+- ".git"
+- ".sass-cache"
+- Gemfile
+- Gemfile.lock
+- feed.xml
+url: http://keiyasui.com
+twitter_username: keiyasui
+github_username: kyasui
 markdown: kramdown
-theme: minima

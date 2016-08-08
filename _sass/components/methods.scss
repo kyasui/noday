@@ -1,0 +1,166 @@
+.methods-section {
+  background-image: url(../images/illustrations/bg-pattern-green.png);
+  background-color: $green;
+  background-position: center center;
+
+  padding-top: 105px;
+
+  .fluid-width {
+    @extend .clearfix;
+  }
+
+  .section-header-title {
+    font-size: 38px;
+    line-height: 44px;
+    color: $white;
+
+    margin-bottom: 55px;
+
+    @media screen and (min-width: $mobile-break) {
+      max-width: 33.33%;
+      float: left;
+
+      margin-bottom: 0px;
+    }
+  }
+
+  .section-header-column {
+    color: $white;
+
+    @media screen and (min-width: $mobile-break) {
+      max-width: 66.66%;
+      float: right;
+    }
+  }
+
+  .body-copy {
+    color: $white;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+
+  .call-out {
+    font-weight: 900;
+    text-transform: uppercase;
+
+    font-size: 24px;
+    line-height: 24px;
+
+    margin-bottom: 28px;
+  }
+
+  .strong {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .section-content {
+    background: rgba(0,0,0, 0.20);
+
+    margin-top: 105px;
+
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+    overflow: hidden;
+
+    .content-container {
+      margin-bottom: 105px;
+    }
+  }
+
+  .content-intro {
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    color: $white;
+
+    margin-top: 155px;
+    margin-bottom: 55px;
+  }
+
+  .section-content-title {
+    text-align: center;
+
+    font-size: 38px;
+    line-height: 38px;
+
+    color: $white;
+    text-transform: uppercase;
+
+    margin-top: 155px;
+    margin-bottom: 155px;
+  }
+
+
+
+  .row {
+    @extend .clearfix;
+
+    @media screen and (min-width: $mobile-break) {
+      margin-left: -1%;
+    }
+  }
+
+  .column {
+    margin-bottom: 5%;
+
+    @media screen and (min-width: $mobile-break) {
+      width: 31.33%;
+      float: left;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-bottom: 0;
+    }
+  }
+
+  .panel {
+    background: $white;
+    padding: 10% 4% 8% 8%;
+
+    @extend .clearfix;
+  }
+
+  .panel-image {
+    float: left;
+    width: 28.33%;
+    margin-right: 5%
+  }
+
+  .match-height {
+    min-height: 250px;
+  }
+
+  .panel-title {
+    color: $green;
+
+    font-size: 24px;
+    line-height: 24px;
+
+    margin-bottom: 15px;
+  }
+
+  .panel-content {
+    float: left;
+    width: 66.66%;
+  }
+
+  .panel-list {
+    margin: 0 20px;
+    padding: 0;
+
+    li {
+      padding: 2px 0;
+      color: $dark-gray;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+  }
+}

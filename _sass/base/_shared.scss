@@ -1,0 +1,40 @@
+.disable-scroll {
+  overflow: hidden;
+
+  body {
+    overflow: hidden;
+  }
+}
+
+.fluid-width {
+  max-width: 1244px;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+
+  position: relative;
+
+  margin: 0 auto;
+}
+
+.third-width {
+  @media screen and (min-width: $mobile-break) {
+    max-width: 33.33%;
+  }
+}
+
+.half-width {
+  @media screen and (min-width: $mobile-break) {
+    max-width: 50%;
+  }
+}
+
+.push-down {
+  margin-top: 100vh;
+  position: relative;
+  z-index: 10;
+}
+
+.is-fixed {
+  padding-top: 60px;
+}

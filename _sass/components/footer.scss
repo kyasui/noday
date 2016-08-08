@@ -1,0 +1,107 @@
+.site-footer {
+  padding-top: 105px;
+  padding-bottom: 105px;
+
+  background: $dark-gray;
+
+  .footer-logo {
+    max-width: 70px;
+    margin: 0 auto;
+    display: block;
+
+    svg,
+    polyline {
+      fill: $white;
+
+      transition: fill .25s;
+      -webkit-transition: fill .25s;
+    }
+
+    &:hover {
+      svg,
+      polyline {
+        fill: $purple;
+      }
+    }
+  }
+
+  .social-links {
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+  }
+
+  .social-link {
+    width: 50px;
+    display: inline-block;
+
+    svg {
+      fill: $white;
+
+      transition: fill .25s;
+      -webkit-transition: fill .25s;
+    }
+
+    &:hover {
+      svg {
+        fill: $purple;
+      }
+    }
+  }
+
+  .footer-ticker {
+    min-height: 350px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .ticker-content {
+    @extend .is-vertical-center;
+    left: 0;
+    right: 0;
+
+    opacity: 0.0;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &.is-visible {
+      opacity: 1.0;
+    }
+  }
+
+  .ticker-link {
+    font-size: 136px;
+    line-height: 136px;
+
+    color: $white;
+
+    text-decoration: none;
+
+    font-weight: 900;
+
+    display: inline-block;
+
+    margin: 0 50px;
+
+    position: relative;
+
+    border-bottom: 10px solid rgba(255,255,255,0.0);
+
+    &:hover {
+      border-bottom: 10px solid $white;
+    }
+  }
+
+  .site-credit {
+    color: $white;
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 22px;
+
+    margin: 0;
+    padding: 0;
+  }
+}

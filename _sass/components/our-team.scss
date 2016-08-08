@@ -1,0 +1,97 @@
+.our-team-section {
+  background: $white;
+
+  padding-bottom: 255px;
+
+  position: relative;
+
+  .section-header {
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+    background-image: url(../images/illustrations/bg-pattern.png);
+    background-color: $purple;
+    background-position: center center;
+
+    .section-header-title {
+      font-size: 48px;
+      line-height: 48px;
+      color: $white;
+
+    }
+  }
+
+  .column {
+    float: left;
+  }
+
+  .section-content {
+    @extend .clearfix;
+    padding-top: 25px;
+  }
+
+  .team-member {
+    padding: 10%;
+
+    -webkit-transition: all .25s;
+    transition: all .25s;
+
+    background: $white;
+
+    min-height: 600px;
+
+    &:hover {
+      background: $light-gray;
+
+      .team-member-image {
+        border: 5px solid #a2a3b6;
+      }
+    }
+  }
+
+  .team-member-header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .team-member-image {
+    margin: 0 auto;
+    display: block;
+
+    max-width: 200px;
+
+    border-radius: 50%;
+    border: 5px solid $white;
+
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }
+
+  .team-member-name {
+    font-size: 20px;
+    line-height: 20px;
+
+    color: $purple;
+  }
+
+  .team-member-title {
+    font-size: 18px;
+    line-height: 28px;
+
+    font-weight: 400;
+  }
+
+  .team-member-body {
+
+  }
+
+  .section-footer-bg {
+    background: url(../images/section-footer-bg.png) center center;
+    height: 150px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+  }
+}
