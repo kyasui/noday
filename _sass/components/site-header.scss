@@ -17,6 +17,13 @@
     position: absolute;
     top: 50px;
     left: 0;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &:hover {
+      opacity: 0.8 !important;
+    }
   }
 
   .down-arrow {
@@ -26,12 +33,26 @@
     position: absolute;
     bottom: 50px;
     left: 0;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .navbar-toggle {
     position: absolute;
     top: 50px;
     right: 0;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &:hover {
+      opacity: 0.8 !important;
+    }
   }
 
   .site-header-content {

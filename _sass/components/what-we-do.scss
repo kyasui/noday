@@ -29,7 +29,11 @@
 
   .slide {
     padding-top: 105px;
-    padding-bottom: 105px;
+    
+
+    @media screen and (min-width: $mobile-break) {
+      padding-bottom: 105px;
+    }
 
     .fluid-width {
       @extend .clearfix;
@@ -37,8 +41,8 @@
   }
 
   .slide-title {
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 32px;
+    line-height: 32px;
 
     color: $purple;
   }
@@ -49,8 +53,10 @@
   }
 
   .slide-image {
-    width: 66.66%;
-    float: left;
+    @media screen and (min-width: $mobile-break) {
+      width: 66.66%;
+      float: left;
+    }
 
     img {
       max-width: 800px;
@@ -62,8 +68,14 @@
 
     .slide-number {
       color: $purple;
-      font-size: 312px;
-      line-height: 312px;
+
+      font-size: 124px;
+      line-height: 124px;
+
+      @media screen and (min-width: $mobile-break) {
+        font-size: 260px;
+        line-height: 260px;
+      }
 
       position: absolute;
       right: 10px;
@@ -98,8 +110,12 @@
   }
 
   .slide-content {
-    float: left;
-    width: 30.33%;
-    margin-left: 3%;
+    margin-top: 55px;
+
+    @media screen and (min-width: $mobile-break) {
+      float: left;
+      width: 30.33%;
+      margin-left: 3%;
+    }
   }
 }

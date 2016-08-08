@@ -8,10 +8,50 @@
     max-width: 70px;
     margin: 0 auto;
     display: block;
+
+    svg,
+    polyline {
+      fill: $white;
+
+      transition: fill .25s;
+      -webkit-transition: fill .25s;
+    }
+
+    &:hover {
+      svg,
+      polyline {
+        fill: $purple;
+      }
+    }
+  }
+
+  .social-links {
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+  }
+
+  .social-link {
+    width: 50px;
+    display: inline-block;
+
+    svg {
+      fill: $white;
+
+      transition: fill .25s;
+      -webkit-transition: fill .25s;
+    }
+
+    &:hover {
+      svg {
+        fill: $purple;
+      }
+    }
   }
 
   .footer-ticker {
     min-height: 350px;
+    overflow: hidden;
 
     position: relative;
   }
@@ -58,8 +98,8 @@
     color: $white;
     text-align: center;
 
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 22px;
 
     margin: 0;
     padding: 0;

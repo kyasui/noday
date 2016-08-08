@@ -8,9 +8,9 @@
 
 .fluid-width {
   max-width: 1244px;
-  width: 96%;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
 
   position: relative;
 
@@ -18,11 +18,15 @@
 }
 
 .third-width {
-  max-width: 33.33%;
+  @media screen and (min-width: $mobile-break) {
+    max-width: 33.33%;
+  }
 }
 
 .half-width {
-  max-width: 50%;
+  @media screen and (min-width: $mobile-break) {
+    max-width: 50%;
+  }
 }
 
 .push-down {

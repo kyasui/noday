@@ -43,7 +43,7 @@ var NODAY = {
     this.setDimensions();
     this.setStickyHeader();
     this.setNavTrigger();
-    // this.setTicker();
+    this.setTicker();
   },
   setDimensions: function() {
     NODAY.ui.$win.on('resize', function() {
@@ -53,13 +53,15 @@ var NODAY = {
     }).trigger('resize');
   },
   setStickyHeader: function() {
-    NODAY.ui.$win.on('scroll', NODAY.utils.throttle(function() {
-      if (NODAY.ui.$win.scrollTop() > NODAY.dimensions.splashHeight) {
-        NODAY.ui.$body.addClass('is-fixed');
-      } else {
-        NODAY.ui.$body.removeClass('is-fixed');
-      }
-    }, 50)).trigger('scroll');
+    if ($('.home-page').length) {
+      NODAY.ui.$win.on('scroll', NODAY.utils.throttle(function() {
+        if (NODAY.ui.$win.scrollTop() > NODAY.dimensions.splashHeight) {
+          NODAY.ui.$body.addClass('is-fixed');
+        } else {
+          NODAY.ui.$body.removeClass('is-fixed');
+        }
+      }, 50)).trigger('scroll');
+    }
   },
   setNavTrigger: function() {
     $(document).on('click', '.navbar-toggle', function(e) {
@@ -91,13 +93,13 @@ var NODAY = {
   setNavMenu: function (callback) {
     var $menuContact = $('.menu-contact-section'),
         $menuLinks = $('.menu-link-section'),
-        $menuContactText = $('.contact-text'),
+        // $menuContactText = $('.contact-text'),
         $menuLinksRows = $('.menu-link-animate');
 
     if (NODAY.ui.$navMenu.hasClass('is-showing')) {
       TweenMax.staggerFromTo($menuLinksRows, 0.2,
         { x: 0, opacity: 1.0 },
-        { x: 50, opacity: 0.0, ease: Power4.easeIn },
+        { x: 30, opacity: 0.0, ease: Power4.easeIn },
         0.05, function() {
           TweenMax.to($menuContact, 0.2, {y: NODAY.dimensions.wHeight * -1, ease: Power4.easeIn});
           TweenMax.to($menuLinks, 0.2, {y: NODAY.dimensions.wHeight, delay: 0.05, ease: Power4.easeIn, onComplete: function() {
@@ -107,19 +109,19 @@ var NODAY = {
         });
       });
 
-      TweenMax.fromTo($menuContactText, 0.2,
-          { x: 0, opacity: 1.0 },
-          { x: 50, opacity: 0.0, ease: Power4.easeIn});
+      // TweenMax.fromTo($menuContactText, 0.2,
+      //     { x: 0, opacity: 1.0 },
+      //     { x: 50, opacity: 0.0, ease: Power4.easeIn});
     } else {
       NODAY.ui.$navMenu.addClass('is-showing');
       TweenMax.fromTo($menuContact, 0.2, {y: NODAY.dimensions.wHeight}, {y: 0, ease: Power4.easeIn});
       TweenMax.fromTo($menuLinks, 0.2, {y: NODAY.dimensions.wHeight * -1}, {y: 0, delay: 0.05, ease: Power4.easeIn, onComplete: function() {
-        TweenMax.fromTo($menuContactText, 0.2,
-          { x: 50, opacity: 0.0 },
-          { x: 0, opacity: 1.0, ease: Power4.easeOut });
+        // TweenMax.fromTo($menuContactText, 0.2,
+        //   { x: 50, opacity: 0.0 },
+        //   { x: 0, opacity: 1.0, ease: Power4.easeOut });
 
         TweenMax.staggerFromTo($menuLinksRows, 0.2,
-          { x: 50, opacity: 0.0 },
+          { x: 30, opacity: 0.0 },
           { x: 0, opacity: 1.0, ease: Power4.easeOut },
           0.05);
         callback();
@@ -144,10 +146,10 @@ var NODAY = {
             { x: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
 
               TweenMax.fromTo($navItems, 0.5,
-                { y: '-10px', opacity: 0.0 },
+                { y: '-25px', opacity: 0.0 },
                 { y: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
                   TweenMax.fromTo($downArrow, 0.5,
-                    { y: '-100px', opacity: 0.0 },
+                    { y: '-50px', opacity: 0.0 },
                     { y: 0, opacity: 0.8, ease: Power4.easeOut});
                 }});
 

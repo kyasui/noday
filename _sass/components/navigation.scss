@@ -26,6 +26,13 @@
     position: absolute;
     left: 0;
     top: 15px;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .navbar-toggle {
@@ -34,6 +41,13 @@
     right: 0;
 
     z-index: 1010;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &:hover {
+      opacity: 0.8;
+    }
 
     .icon-bar {
       background: #000;

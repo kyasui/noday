@@ -5,9 +5,9 @@
 @charset "utf-8";
 
 @import 'base/_normalize.scss';
+@import 'base/_variables.scss';
 @import 'base/_fonts.scss';
 @import 'base/_shared.scss';
-@import 'base/_variables.scss';
 @import 'base/_utility.scss';
 
 @import 'components/nav-menu.scss';
