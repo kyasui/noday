@@ -12,14 +12,14 @@ email: info@keiyasui.com
 description: |
   Noday website
 exclude:
-  - node_modules
-  - package.json
-  - gulpfile.js
-  - .git
-  - .sass-cache
-  - Gemfile
-  - Gemfile.lock
-  - feed.xml
+- node_modules
+- package.json
+- gulpfile.js
+- ".git"
+- ".sass-cache"
+- Gemfile
+- Gemfile.lock
+- feed.xml
 url: http://keiyasui.com
 twitter_username: keiyasui
 github_username: kyasui
