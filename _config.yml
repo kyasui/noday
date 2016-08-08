@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-  case-studies:
+  case-study:
     title: case-studies
     output: true
 email: info@keiyasui.com
