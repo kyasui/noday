@@ -2,6 +2,9 @@
 title: Noday
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -9,18 +12,17 @@ collections:
     title: case-studies
     output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "case-studies"
-    values:
-      layout: "case-study-single"
-      Logo: 
-        logo-image: ""
-      Short Description: ""
-      Content:
-        - Title: ""
-          Paragraph: ""
+- scope:
+    path: ''
+    type: case-studies
+  values:
+    layout: case-study-single
+    Logo:
+      logo-image: ''
+    Short Description: ''
+    Content:
+    - Title: ''
+      Paragraph: ''
 email: info@keiyasui.com
 description: |
   Noday website
@@ -34,7 +36,6 @@ exclude:
 - Gemfile.lock
 - feed.xml
 url: http://keiyasui.com
-
 twitter_username: keiyasui
 github_username: kyasui
 markdown: kramdown
