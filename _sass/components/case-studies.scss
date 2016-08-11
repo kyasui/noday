@@ -1,9 +1,14 @@
 .case-studies-section {
-  background-image: url(../images/illustrations/bg-pattern.png);
-  background-color: $purple;
+  background-image: url(../images/illustrations/bg-pattern-red.png);
+  background-color: $red;
   background-position: center center;
+
   .section-header {
-    padding-top: 105px;
+    padding-top: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-top: $desktop-space;
+    }
 
     .section-header-title {
       font-size: 48px;
@@ -18,10 +23,16 @@
 
   .section-content {
     background: rgba(0,0,0, 0.2);
-    
-    margin-top: 105px;
-    padding-top: 105px;
-    padding-bottom: 105px;
+
+    margin-top: $mobile-space;
+    padding-top: $mobile-space;
+    padding-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      margin-top: $desktop-space;
+      padding-top: $desktop-space;
+      padding-bottom: $desktop-space;
+    }
 
     @extend .clearfix;
   }
@@ -32,7 +43,12 @@
     .case-study-header {
       background: $white;
       height: 200px;
-      padding: 105px 10%;
+
+      padding: $mobile-space 10%;
+
+      @media screen and (min-width: $mobile-break) {
+        padding: $desktop-space 10%;
+      }
 
       position: relative;
     }
@@ -42,6 +58,12 @@
         background: $light-gray;
       }
     }
+
+    margin-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      margin-bottom: 0;
+    }
   }
 
   .case-study-content {
@@ -49,8 +71,13 @@
   }
 
   .case-study-title {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 26px;
+
+    @media screen and (min-width: $mobile-break) {
+      font-size: 20px;
+      line-height: 20px;
+    }
 
     text-transform: uppercase;
 
@@ -81,15 +108,25 @@
 }
 
 .case-studies-single-section {
-  background-image: url(../images/illustrations/bg-pattern.png);
-  background-color: $purple;
+  background-image: url(../images/illustrations/bg-pattern-red.png);
+  background-color: $red;
   background-position: center center;
+
   .section-header {
-    padding-top: 105px;
+    padding-top: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-top: $desktop-space;
+    }
 
     .section-header-title {
-      font-size: 48px;
+      font-size: 42px;
       line-height: 48px;
+
+      @media screen and (min-width: $mobile-break) {
+        font-size: 48px;
+        line-height: 48px;
+      }
       color: $white;
 
       text-transform: uppercase;
@@ -113,6 +150,7 @@
 
     img {
       margin: 0 auto;
+      max-width: 100%;
       display: block;
     }
 
@@ -122,8 +160,12 @@
   .section-content {
     // background: rgba(0,0,0, 0.20);
 
-    padding-top: 55px;
-    padding-bottom: 105px;
+    padding-top: 0;
+    padding-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-bottom: $desktop-space;
+    }
 
     @extend .clearfix;
   }
@@ -132,12 +174,7 @@
     @extend .clearfix;
   }
 
-  .section-header-title {
-    font-size: 38px;
-    line-height: 44px;
-
-    color: $white;
-
+  .section-header-sidebar {
     margin-bottom: 55px;
 
     @media screen and (min-width: $mobile-break) {
@@ -148,6 +185,13 @@
 
       margin-bottom: 0px;
     }
+  }
+
+  .section-header-title {
+    font-size: 38px;
+    line-height: 44px;
+
+    color: $white;
   }
 
   .section-header-column {
@@ -174,10 +218,17 @@
     font-weight: 900;
     text-transform: uppercase;
 
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
 
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $mobile-break) {
+      font-size: 24px;
+      line-height: 24px;
+
+      margin-bottom: 30px;
+    }
   }
 
   .strong {

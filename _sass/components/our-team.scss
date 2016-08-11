@@ -6,8 +6,13 @@
   position: relative;
 
   .section-header {
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: $mobile-space;
+    padding-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-top: $desktop-space;
+      padding-bottom: $desktop-space;
+    }
 
     background-image: url(../images/illustrations/bg-pattern.png);
     background-color: $purple;
@@ -31,14 +36,20 @@
   }
 
   .team-member {
-    padding: 10%;
+    padding: 4%;
+
+    @media screen and (min-width: $mobile-break) {
+      padding: 10%;
+    }
 
     -webkit-transition: all .25s;
     transition: all .25s;
 
     background: $white;
 
-    min-height: 600px;
+    @media screen and (min-width: $mobile-break) {
+      min-height: 600px;
+    }
 
     &:hover {
       background: $light-gray;
@@ -50,8 +61,13 @@
   }
 
   .team-member-header {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
   }
 
   .team-member-image {

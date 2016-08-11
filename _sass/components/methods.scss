@@ -3,7 +3,11 @@
   background-color: $green;
   background-position: center center;
 
-  padding-top: 105px;
+  padding-top: $mobile-space;
+
+  @media screen and (min-width: $mobile-break) {
+    padding-top: $desktop-space;
+  }
 
   .fluid-width {
     @extend .clearfix;
@@ -48,9 +52,9 @@
     text-transform: uppercase;
 
     font-size: 24px;
-    line-height: 24px;
+    line-height: 32px;
 
-    margin-bottom: 28px;
+    margin-bottom: 20px;
   }
 
   .strong {
@@ -61,15 +65,26 @@
   .section-content {
     background: rgba(0,0,0, 0.20);
 
-    margin-top: 105px;
+    margin-top: $mobile-space;
 
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: $mobile-space;
+    padding-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      margin-top: $desktop-space;
+
+      padding-top: $desktop-space;
+      padding-bottom: $desktop-space;
+    }
 
     overflow: hidden;
 
     .content-container {
-      margin-bottom: 105px;
+      margin-bottom: $mobile-space;
+
+      @media screen and (min-width: $mobile-break) {
+        margin-bottom: $desktop-space;
+      }
     }
   }
 
@@ -134,7 +149,9 @@
   }
 
   .match-height {
-    min-height: 250px;
+    @media screen and (min-width: $mobile-break) {
+      min-height: 250px;
+    }
   }
 
   .panel-title {

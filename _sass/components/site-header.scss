@@ -15,7 +15,13 @@
     display: block;
 
     position: absolute;
-    top: 50px;
+
+    top: 20px;
+
+    @media screen and (min-width: $mobile-break) {
+      top: 50px;
+    }
+
     left: 0;
 
     transition: opacity .25s;
@@ -31,7 +37,13 @@
     display: block;
 
     position: absolute;
-    bottom: 50px;
+
+    bottom: 10px;
+
+    @media screen and (min-width: $mobile-break) {
+      bottom: 50px;
+    }
+
     left: 0;
 
     transition: opacity .25s;
@@ -44,7 +56,13 @@
 
   .navbar-toggle {
     position: absolute;
-    top: 50px;
+
+    top: 20px;
+
+    @media screen and (min-width: $mobile-break) {
+      top: 50px;
+    }
+
     right: 0;
 
     transition: opacity .25s;
@@ -64,20 +82,34 @@
   }
 
   .site-tag {
-    font-size: 96px;
-    line-height: 96px;
+    text-align: center;
 
     color: $white;
+
+    font-size: 72px;
+    line-height: 72px;
 
     @extend .is-vertical-center;
 
     left: 0;
-    width: 40%;
 
     margin: 0;
     padding: 0;
 
     z-index: 10;
+
+    width: 100%;
+    right: 0;
+
+    @media screen and (min-width: $mobile-break) {
+      width: 40%;
+      right: auto;
+
+      font-size: 96px;
+      line-height: 96px;
+
+      text-align: left;
+    }
   }
 
   .header-illustration {
@@ -85,7 +117,14 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    max-width: 60%;
+
+    max-width: 100%;
+    left: 0;
+
+    @media screen and (min-width: $mobile-break) {
+      left: auto;
+      max-width: 60%;
+    }
 
     img {
       max-width: 100%;
