@@ -1,7 +1,12 @@
 .what-we-do-section {
   .section-header {
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: $mobile-space;
+    padding-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-top: $desktop-space;
+      padding-bottom: $desktop-space;
+    }
 
     background-image: url(../images/illustrations/bg-pattern.png);
     background-color: $purple;
@@ -23,16 +28,22 @@
   }
 
   .slider {
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: $mobile-space;
+    padding-bottom: $mobile-space;
+
+    @media screen and (min-width: $mobile-break) {
+      padding-top: $desktop-space;
+      padding-bottom: $desktop-space;
+    }
   }
 
   .slide {
-    padding-top: 105px;
-    
+    padding-top: $mobile-space;
+    padding-bottom: $mobile-space;
 
     @media screen and (min-width: $mobile-break) {
-      padding-bottom: 105px;
+      padding-top: $desktop-space;
+      padding-bottom: $desktop-space;
     }
 
     .fluid-width {
@@ -91,21 +102,20 @@
   }
 
   .listen-slide {
-    .slide-number {
-      right: 25%;
+    .slide-title {
+      color: $green;
     }
   }
 
   .dig-slide {
-    .slide-number {
-      right: 18%;
-      margin-top: 20px;
+    .slide-title {
+      color: $red;
     }
   }
 
   .tell-a-story-slide {
-    .slide-number {
-      right: 30%;
+    .slide-title {
+      color: $purple;
     }
   }
 

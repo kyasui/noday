@@ -55,10 +55,15 @@ var NODAY = {
   setStickyHeader: function() {
     if ($('.home-page').length) {
       NODAY.ui.$win.on('scroll', NODAY.utils.throttle(function() {
-        if (NODAY.ui.$win.scrollTop() > NODAY.dimensions.splashHeight) {
-          NODAY.ui.$body.addClass('is-fixed');
+        if (NODAY.ui.$win.scrollTop() > NODAY.dimensions.splashHeight + 60) {
+          NODAY.ui.$body.addClass('is-fixed').addClass('nav-in');
         } else {
-          NODAY.ui.$body.removeClass('is-fixed');
+          if (NODAY.ui.$body.hasClass('is-fixed')) {
+              NODAY.ui.$body.removeClass('nav-in');
+              setTimeout(function() {
+                NODAY.ui.$body.removeClass('is-fixed');
+              }, 600);
+          }
         }
       }, 50)).trigger('scroll');
     }
@@ -86,7 +91,7 @@ var NODAY = {
       e.preventDefault();
 
       TweenMax.to(window, 0.4, {
-        scrollTo:{ y: '#what-we-do', offsetY: 60, ease: Power4.easeOut }
+        scrollTo:{ y: '#what-we-do', offsetY: -1, ease: Power4.easeOut }
       });
     });
   },

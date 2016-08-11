@@ -1,6 +1,11 @@
 .site-footer {
-  padding-top: 105px;
-  padding-bottom: 105px;
+  padding-top: $mobile-space;
+  padding-bottom: $mobile-space;
+
+  @media screen and (min-width: $mobile-break) {
+    padding-top: $desktop-space;
+    padding-bottom: $desktop-space;
+  }
 
   background: $dark-gray;
 

@@ -48,8 +48,7 @@
     left: 0;
     right: 0;
 
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 10% 5%;
 
     @media screen and (min-width: $mobile-break) {
       position: absolute;
@@ -85,8 +84,13 @@
       color: $dark-gray;
       text-decoration: none;
 
-      font-size: 36px;
-      line-height: 36px;
+      font-size: 24px;
+      line-height: 32px;
+
+      @media screen and (min-width: $mobile-break) {
+        font-size: 36px;
+        line-height: 36px;
+      }
 
       transition: color .25s;
       -webkit-transition: color .25s;
@@ -98,30 +102,44 @@
   }
 
   .menu-link-section {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+
+    position: absolute;
+
     @media screen and (min-width: $mobile-break) {
       width: 75%;
-      position: absolute;
-      top: 0;
       right: 0;
-      bottom: 0;
     }
 
     background-color: $dark-gray;
 
     .title {
       color: $white;
-      font-size: 36px;
-      line-height: 36px;
 
-      margin-top: 105px;
+      font-size: 18px;
+      line-height: 18px;
+
+      margin-top: $desktop-space;
+
+      @media screen and (min-width: $mobile-break) {
+        font-size: 36px;
+        line-height: 36px;
+      }
     }
 
     .mail-link {
       color: $purple;
       text-decoration: none;
 
-      font-size: 36px;
-      line-height: 36px;
+      font-size: 24px;
+      line-height: 32px;
+
+      @media screen and (min-width: $mobile-break) {
+        font-size: 36px;
+        line-height: 36px;
+      }
 
       transition: color .25s;
       -webkit-transition: color .25s;
@@ -134,7 +152,13 @@
 
   .menu-logo {
     display: block;
-    max-width: 80px;
+
+    max-width: 60px;
+
+    @media screen and (min-width: $mobile-break) {
+      max-width: 80px;
+    }
+
     margin-bottom: 30px;
   }
 
