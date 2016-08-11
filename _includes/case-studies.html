@@ -11,10 +11,10 @@
 
       <article class="case-study half-width">
         <header class="case-study-header">
-          <img class="case-study-image is-vertical-center" src="{{ study.Logo['logo-image'] }}" alt="{{ study.title }}" />
+          <a href="{{ study.url }}"><img class="case-study-image is-vertical-center" src="{{ study.Logo['logo-image'] }}" alt="{{ study.title }}" /></a>
         </header>
         <div class="case-study-content">
-          <h4 class="case-study-title">{{ study.title }}</h4>
+          <a href="{{ study.url }}"><h4 class="case-study-title">{{ study.title }}</h4></a>
           <p class="case-study-body body-copy">{{ study['Short Description'] }}</p>
           <a class="case-study-link" href="{{ study.url }}">VIEW CASE STUDY</a>
         </div>

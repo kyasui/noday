@@ -51,6 +51,13 @@
       }
 
       position: relative;
+
+      transition: opacity .25s;
+      -webkit-transition: opacity .25s;
+
+      &:hover {
+        opacity: 0.95;
+      }
     }
 
     &:nth-child(odd) {
@@ -68,6 +75,10 @@
 
   .case-study-content {
     padding: 10%;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   .case-study-title {
@@ -104,6 +115,13 @@
     text-decoration: none;
 
     color: $white;
+
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
 
