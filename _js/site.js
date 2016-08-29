@@ -40,6 +40,7 @@ var NODAY = {
   },
   init: function() {
     this.startSite();
+    this.initImageLoad();
     this.setDimensions();
     this.setStickyHeader();
     this.setNavTrigger();
@@ -133,15 +134,25 @@ var NODAY = {
       }});
     }
   },
+  initImageLoad: function() {
+    $('.off-load').each(function() {
+      var $this = $(this);
+
+      $this.attr('src', $this.data('src'));
+      $this[0].onload = function() {
+        $this.removeAttr('data-src');
+      };
+    });
+  },
   startSite: function() {
     var $tagLine = $('.animate-tag-line'),
         $illustration = $('.animate-illustration'),
         $navItems = $('.header-nav-item'),
         $downArrow = $('.animate-down-arrow');
 
-    setTimeout(function() {
-      // NODAY.ui.$htmlBody.scrollTop(0);
+    $illustration.attr('src', $illustration.data('img-src'));
 
+    $illustration[0].onload = function() {
       TweenMax.fromTo($illustration, 0.4,
         { x: '50px', opacity: 0.0 },
         { x: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
@@ -161,7 +172,13 @@ var NODAY = {
             } });
 
         } });
-    }, 50);
+    };
+
+    // setTimeout(function() {
+    //   // NODAY.ui.$htmlBody.scrollTop(0);
+
+      
+    // }, 50);
   },
   setTicker: function() {
     $('.ticker-content').marquee({
