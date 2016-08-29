@@ -40,3 +40,13 @@
 .is-fixed {
   padding-top: 60px;
 }
+
+.off-load {
+  opacity: 1.0;
+  transition: opacity 0.25s;
+  -webkit-transition: opacity 0.25s;
+}
+
+.off-load[data-src] {
+  opacity: 0;
+}
