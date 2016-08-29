@@ -150,35 +150,30 @@ var NODAY = {
         $navItems = $('.header-nav-item'),
         $downArrow = $('.animate-down-arrow');
 
-    $illustration.attr('src', $illustration.data('img-src'));
+    if ($illustration.length) {
+      $illustration.attr('src', $illustration.data('img-src'));
+      $illustration[0].onload = function() {
+        TweenMax.fromTo($illustration, 0.4,
+          { x: '50px', opacity: 0.0 },
+          { x: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
 
-    $illustration[0].onload = function() {
-      TweenMax.fromTo($illustration, 0.4,
-        { x: '50px', opacity: 0.0 },
-        { x: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
+            TweenMax.fromTo($tagLine, 0.8,
+              { x: '-50px', opacity: 0.0 },
+              { x: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
 
-          TweenMax.fromTo($tagLine, 0.8,
-            { x: '-50px', opacity: 0.0 },
-            { x: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
+                TweenMax.fromTo($navItems, 0.5,
+                  { y: '-25px', opacity: 0.0 },
+                  { y: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
+                    TweenMax.fromTo($downArrow, 0.5,
+                      { y: '-50px', opacity: 0.0 },
+                      { y: 0, opacity: 0.8, ease: Power4.easeOut});
+                  }});
 
-              TweenMax.fromTo($navItems, 0.5,
-                { y: '-25px', opacity: 0.0 },
-                { y: 0, opacity: 1.0, ease: Power4.easeOut, onComplete: function() {
-                  TweenMax.fromTo($downArrow, 0.5,
-                    { y: '-50px', opacity: 0.0 },
-                    { y: 0, opacity: 0.8, ease: Power4.easeOut});
-                }});
+              } });
 
-            } });
-
-        } });
-    };
-
-    // setTimeout(function() {
-    //   // NODAY.ui.$htmlBody.scrollTop(0);
-
-      
-    // }, 50);
+          } });
+      };
+    }
   },
   setTicker: function() {
     $('.ticker-content').marquee({
