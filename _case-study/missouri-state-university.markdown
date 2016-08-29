@@ -2,7 +2,7 @@
 title: Missouri State University
 date: 2016-08-08 22:56:00 Z
 Logo:
-  logo-image: "/uploads/msu.png"
+  logo-image: "/uploads/msu-color.png"
 Short Description: A gem of the midwest, Missouri State University stands as not only
   the second largest university in Missouri, but as one of the most valuable public
   universities in the region.

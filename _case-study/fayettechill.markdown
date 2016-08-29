@@ -2,7 +2,7 @@
 title: Fayettechill
 date: 2016-08-08 22:59:00 Z
 Logo:
-  logo-image: "/uploads/fayette.png"
+  logo-image: "/uploads/fayette-color.png"
 Short Description: Fayettechill is a clothing company that not only appeals to its
   specific niche customer but also has a broad consumer base sold on its products;
   anywhere from the die hard fashion heads to the recreational trend-follower.

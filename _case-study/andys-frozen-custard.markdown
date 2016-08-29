@@ -2,7 +2,7 @@
 title: Andy's Frozen Custard
 date: 2016-08-08 22:24:00 Z
 Logo:
-  logo-image: "/uploads/andys.png"
+  logo-image: "/uploads/andys-color.png"
 Short Description: Andy’s Frozen Custard has proven time after time (in our best Cyndi
   Lauper voice) that they exceed expectations of any dessert company.
 Content:
