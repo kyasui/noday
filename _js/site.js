@@ -59,7 +59,7 @@ var NODAY = {
         if (NODAY.ui.$win.scrollTop() > NODAY.dimensions.splashHeight + 60) {
           NODAY.ui.$body.addClass('is-fixed').addClass('nav-in');
         } else {
-          if (NODAY.ui.$body.hasClass('is-fixed')) {
+          if (NODAY.ui.$body.hasClass('is-fixed') && NODAY.ui.$body.hasClass('nav-in')) {
               NODAY.ui.$body.removeClass('nav-in');
               setTimeout(function() {
                 NODAY.ui.$body.removeClass('is-fixed');
@@ -92,7 +92,7 @@ var NODAY = {
       e.preventDefault();
 
       TweenMax.to(window, 0.4, {
-        scrollTo:{ y: '#what-we-do', offsetY: -1, ease: Power4.easeOut }
+        scrollTo:{ y: '#what-we-do', offsetY: -5, ease: Power4.easeOut }
       });
     });
   },

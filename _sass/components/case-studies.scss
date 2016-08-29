@@ -38,11 +38,19 @@
   }
 
   .case-study {
-    float: left;
+    width: 100%;
+
+    @media screen and (min-width: $mobile-break) {
+      float: left;
+      margin-right: 0;
+      margin-left: 1%;
+
+      width: 48%;
+    }
 
     .case-study-header {
       background: $white;
-      height: 200px;
+      height: 150px;
 
       padding: $mobile-space 10%;
 
@@ -61,8 +69,9 @@
     }
 
     &:nth-child(odd) {
-      .case-study-header {
-        background: $light-gray;
+      @media screen and (min-width: $mobile-break) {
+        margin-right: 1%;
+        margin-left: 0;
       }
     }
 
