@@ -103,13 +103,15 @@
 
   .listen-slide {
     .slide-title {
-      color: $green;
+      // color: $green;
+      color: $purple;
     }
   }
 
   .dig-slide {
     .slide-title {
-      color: $red;
+      // color: $red;
+      color: $purple;
     }
   }
 
@@ -123,7 +125,7 @@
     margin-top: 55px;
 
     @media screen and (min-width: $mobile-break) {
-      float: left;
+      float: right;
       width: 30.33%;
       margin-left: 3%;
     }
