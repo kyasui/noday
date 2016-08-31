@@ -3,9 +3,9 @@ title: Missouri State University
 date: 2016-08-08 22:56:00 Z
 Logo:
   logo-image: "/uploads/msu-color.png"
-Short Description: A gem of the midwest, Missouri State University stands as not only
-  the second largest university in Missouri, but as one of the most valuable public
-  universities in the region.
+Short Description: Understanding trends can help your business flourish. NoDay worked
+  with Missouri State faculty to find out what students were craving in the cafeterias
+  and vending machines.
 Content:
 - Title: Discovering the secrets to your customers happiness.
   Paragraph: 'A gem of the midwest, Missouri State University stands as not only the

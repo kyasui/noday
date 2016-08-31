@@ -3,9 +3,9 @@ title: Fayettechill
 date: 2016-08-08 22:59:00 Z
 Logo:
   logo-image: "/uploads/fayette-color.png"
-Short Description: Fayettechill is a clothing company that not only appeals to its
-  specific niche customer but also has a broad consumer base sold on its products;
-  anywhere from the die hard fashion heads to the recreational trend-follower.
+Short Description: When it comes to fashion, brand is everything. But how is yours
+  stacking up? We set out to find exactly how Fayettechill’s customers think and feel
+  about their brand.
 Content:
 - Title: Understanding how the customer understands you.
   Paragraph: Fayettechill is a clothing company that not only appeals to its specific
