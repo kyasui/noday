@@ -48,7 +48,7 @@
     background: $white;
 
     @media screen and (min-width: $mobile-break) {
-      min-height: 600px;
+      min-height: 620px;
     }
 
     &:hover {
@@ -104,7 +104,17 @@
 
   .section-footer-bg {
     background: url(../images/section-footer-bg.png) center center;
-    height: 150px;
+    height: 75px;
+
+    background-size: 866.5px 75px;
+    -webkit-background-size: 866.5px 75px;
+
+    @media screen and (min-width: $mobile-break) {
+      background-size: auto 150px;
+      -webkit-background-size: auto 150px;
+
+      height: 150px;
+    }
 
     position: absolute;
     left: 0;
