@@ -3,8 +3,9 @@ title: Andy's Frozen Custard
 date: 2016-08-08 22:24:00 Z
 Logo:
   logo-image: "/uploads/andys-color.png"
-Short Description: Andy’s Frozen Custard has proven time after time (in our best Cyndi
-  Lauper voice) that they exceed expectations of any dessert company.
+Short Description: Andy’s and NoDay teamed up to tackle some of Frozen Custard’s most
+  important questions. We covered everything from how customers eat it to advertising
+  efficiency. Here are the tasty details.
 Content:
 - Title: LISTENING TO CUSTOMERS TO MAKE WAY FOR THE FUTURE.
   Paragraph: Andy’s Frozen Custard has proven time after time (in our best Cyndi Lauper
