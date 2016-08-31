@@ -145,7 +145,13 @@
   .panel-image {
     float: left;
     width: 28.33%;
-    margin-right: 5%
+    margin-right: 5%;
+
+    max-width: 120px;
+
+    @media screen and (min-width: $mobile-break) {
+      max-width: 100%;
+    }
   }
 
   .match-height {
