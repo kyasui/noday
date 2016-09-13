@@ -1,6 +1,7 @@
 ---
 title: Fayettechill
 date: 2016-08-08 22:59:00 Z
+title-tag: Fayette Chill Case Study
 Logo:
   logo-image: "/uploads/fayette-color.png"
 Short Description: When it comes to fashion, brand is everything. But how is yours

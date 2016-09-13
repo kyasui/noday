@@ -1,6 +1,7 @@
 ---
 title: Andy's Frozen Custard
 date: 2016-08-08 22:24:00 Z
+title-tag: Missouri State University Case Study
 Logo:
   logo-image: "/uploads/andys-color.png"
 Short Description: Andy’s and NoDay teamed up to tackle some of Frozen Custard’s most
