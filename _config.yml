@@ -35,8 +35,8 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - feed.xml
-url: http://keiyasui.com
-twitter_username: keiyasui
+url: http://www.noday.co/
+twitter_username: nodayresearch
 github_username: kyasui
 markdown: kramdown
 gems:
