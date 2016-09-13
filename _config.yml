@@ -40,4 +40,4 @@ twitter_username: keiyasui
 github_username: kyasui
 markdown: kramdown
 gems:
-- 'jekyll-sitemap '
+- jekyll-sitemap
