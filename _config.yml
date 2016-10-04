@@ -24,8 +24,9 @@ defaults:
     - Title: ''
       Paragraph: ''
 email: info@keiyasui.com
-description: |
-  Noday website
+description: 'Noday website
+
+'
 exclude:
 - node_modules
 - package.json
