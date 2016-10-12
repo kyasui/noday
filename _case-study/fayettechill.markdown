@@ -1,7 +1,6 @@
 ---
 title: Fayettechill
 date: 2016-08-08 22:59:00 Z
-title-tag: Fayette Chill Case Study
 Logo:
   logo-image: "/uploads/fayette-color.png"
 Short Description: When it comes to fashion, brand is everything. But how is yours
@@ -34,5 +33,6 @@ Content:
     survey. This final survey pulls data from previous research to create a reliable
     and unbiased brand image. We know you are on the edge of your seats, but you are
     gonna have to wait a bit for these juicy results.
+title-tag: Fayettechill Case Study
 ---
 
