@@ -1,7 +1,6 @@
 ---
-title: Andy's Frozen Custard
+title: Customer Relationships
 date: 2016-08-08 22:24:00 Z
-title-tag: Missouri State University Case Study
 Logo:
   logo-image: "/uploads/andys-color.png"
 Short Description: Andy’s and NoDay teamed up to tackle some of Frozen Custard’s most
@@ -29,6 +28,7 @@ Content:
     Custard to final decisions that have made big effects on the future. They have
     used our data for walking franchisees and employees through a more clear understanding
     of their customers mind and what they can do to better serve them.
+title-tag: Missouri State University Case Study
 layout: case-study-single
 ---
 
