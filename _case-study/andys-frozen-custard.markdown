@@ -13,15 +13,15 @@ Content:
   Paragraph: What happens when businesses listen to their customers? Not only do they
     build their brand loyalty, but they get the inside scoop on industry secrets that
     can't be found anywhere else. Do you want to expand your brand, boost sales, improve
-    retention, and improve marketing efficiency? Let us get to work.
+    retention and marketing efficiency? Let's get to work.
 - Title: THE APPROACH.
-  Paragraph: "<p>NODAY has extensive experience in finding the best ways to hear your
-    customers. <br>\n<br>\nFirst we discover. We work with our clients to logistically
-    design the perfect project for their needs.<br>\n&nbsp;\nSecondly, we analyze.
-    Our team of research specialists dive in to the data. We find results that are
-    no longer based off of assumption, but rather facts.\n&nbsp; \nLastly, we take
-    action. We want our findings to help steer your decisions in the future. Decisions
-    that lead to happier customers and better business."
+  Paragraph: "NODAY has extensive experience in finding the best ways to hear your
+    customers.\nFirst we discover. We work with our clients to logistically design
+    the perfect project for their needs.\nSecondly, we analyze. Our team of research
+    specialists dive in to the data. We find results that are no longer based off
+    of assumption, but rather facts.\n&nbsp; \nLastly, we take action. We want our
+    findings to help steer your decisions in the future. Decisions that lead to happier
+    customers and better business."
 - Title: THE OUTCOME.
   Paragraph: |-
     Our studies have helped companies in many different industries thrive and gain competitive advantage to gain market share. At the end of the day, we want our clients to not just be satisfactory, but exemplary in their field.
