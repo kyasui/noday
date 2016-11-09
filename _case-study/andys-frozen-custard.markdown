@@ -1,11 +1,13 @@
 ---
-title: Customer Relationships
+title: Customer and Employee Relationships
 date: 2016-08-08 22:24:00 Z
 Logo:
   logo-image: "/uploads/andys-color.png"
-Short Description: Andy’s and NoDay teamed up to tackle some of Frozen Custard’s most
-  important questions. We covered everything from how customers eat it to advertising
-  efficiency. Here are the tasty details.
+Short Description: There are some aspects of business you simply can't cut corners
+  on. Arguably the most important of these is measuring, retaining, and enhancing
+  customer and employee relationships and engagement. We help our clients capture
+  the feelings of their customers and employees, then turn those findings into tangible,
+  actionable, and genuine improvements.
 Content:
 - Title: LISTENING TO CUSTOMERS TO MAKE WAY FOR THE FUTURE.
   Paragraph: Andy’s Frozen Custard has proven time after time (in our best Cyndi Lauper
