@@ -4,33 +4,30 @@ date: 2016-08-08 22:24:00 Z
 Logo:
   logo-image: "/uploads/andys-color.png"
 Short Description: There are some aspects of business you simply can't cut corners
-  on. Arguably the most important of these is measuring, retaining, and enhancing
+  on. Arguably, the most important of these is measuring, retaining, and enhancing
   customer and employee relationships and engagement. We help our clients capture
   the feelings of their customers and employees, then turn those findings into tangible,
   actionable, and genuine improvements.
 Content:
 - Title: LISTENING TO CUSTOMERS TO MAKE WAY FOR THE FUTURE.
-  Paragraph: Andy’s Frozen Custard has proven time after time (in our best Cyndi Lauper
-    voice) that they exceed the expectations of any dessert company. Hailing from
-    the Midwest, but rapidly expanding outward and into new territories, Andy’s has
-    always been on the innovative, cutting edge of delicious frozen custard treats.
-    As a company that is experiencing rapid growth, crucial decisions and problems
-    will inevitably present themselves along the way. Andy’s hired NoDay because they
-    needed to know that when making these paramount decisions, they should operate
-    off of facts, not hunches.
+  Paragraph: What happens when businesses listen to their customers? Not only do they
+    build their brand loyalty, but they get the inside scoop on industry secrets that
+    can't be found anywhere else. Do you want to expand your brand, boost sales, improve
+    retention, and improve marketing efficiency? Let us get to work.
 - Title: THE APPROACH.
-  Paragraph: We surveyed over 7,000 Andy’s customers to find out a few key aspects
-    of their company. Who are the customers? How price sensitive are they? How is
-    our advertising affecting customers and sales? How is the user experience when
-    using our application and loyalty program? When building new stores does outdoor
-    seating have any impact on sales?
+  Paragraph: "NODAY has extensive experience in finding the best ways to hear your
+    customers. \n\nFirst we discover. We work with our clients to logistically design
+    the perfect project for their needs.\n\nSecondly, we analyze. Our team of research
+    specialists dive in to the data. We find results that are no longer based off
+    of assumption, but rather facts.\n\nLastly, we take action. We want our findings
+    to help steer your decisions in the future. Decisions that lead to happier customers
+    and better business."
 - Title: THE OUTCOME.
-  Paragraph: Our research exposed some very important insights and a more in-depth
-    understanding of the customer. Our results have successfully guided Andy’s Frozen
-    Custard to final decisions that have made big effects on the future. They have
-    used our data for walking franchisees and employees through a more clear understanding
-    of their customers mind and what they can do to better serve them.
-title-tag: Missouri State University Case Study
+  Paragraph: |-
+    Our studies have helped companies in many different industries thrive and gain competitive advantage to gain market share. At the end of the day, we want our clients to not just be satisfactory, but exemplary in their field.
+
+    Clients have used our findings to help enter into new markets, boost sales by increasing customer satisfaction, adapt brand strategy to build brand image, and help marketing departments focus in on what matters, among many other things.
+title-tag: Customer and Employee Relationships
 layout: case-study-single
 ---
 
