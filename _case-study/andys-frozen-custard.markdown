@@ -23,11 +23,10 @@ Content:
     to help steer your decisions in the future. Decisions that lead to happier customers
     and better business."
 - Title: THE OUTCOME.
-  Paragraph: Our research exposed some very important insights and a more in-depth
-    understanding of the customer. Our results have successfully guided Andy’s Frozen
-    Custard to final decisions that have made big effects on the future. They have
-    used our data for walking franchisees and employees through a more clear understanding
-    of their customers mind and what they can do to better serve them.
+  Paragraph: |-
+    Our studies have helped companies in many different industries thrive and gain competitive advantage to gain market share. At the end of the day, we want our clients to not just be satisfactory, but exemplary in their field.
+
+    Clients have used our findings to help enter into new markets, boost sales by increasing customer satisfaction, adapt brand strategy to build brand image, and help marketing departments focus in on what matters, among many other things.
 title-tag: Customer and Employee Relationships
 layout: case-study-single
 ---
