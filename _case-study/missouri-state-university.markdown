@@ -1,6 +1,7 @@
 ---
 title: Missouri State University
 date: 2016-08-08 22:56:00 Z
+position: 0
 title-tag: Andy's Frozen Custard
 Logo:
   logo-image: "/uploads/msu-color.png"
