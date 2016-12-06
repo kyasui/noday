@@ -1,6 +1,7 @@
 ---
 title: Brand Exploration
 date: 2016-08-08 22:59:00 Z
+position: 1
 Logo:
   logo-image: "/uploads/fayette-color.png"
 Short Description: "\"The makeup is simply an extension of the personality and colors,

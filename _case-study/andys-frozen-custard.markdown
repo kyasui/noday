@@ -1,6 +1,7 @@
 ---
 title: Customer Relationships
 date: 2016-08-08 22:24:00 Z
+position: 3
 Logo:
   logo-image: "/uploads/andys-color.png"
 Short Description: There are some aspects of business you simply can't cut corners
