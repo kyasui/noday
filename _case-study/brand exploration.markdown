@@ -20,12 +20,12 @@ Content:
   Paragraph: At NODAY, we are the authority on brands. Some would say we are obsessed.
     We don't just find out what customers are thinking and feeling, we use psychology
     metrics and statistical tests to create real, applicable strategies. We first
-    define the companies brand identity; how the company thinks their customers see
-    them. Then, we determine the brand image; how customers actually perceive the
-    brand. Once we establish these two principles and their differences, we begin
-    to dig deeper. Who is saying what? Why are they saying it? Is it affecting sales
-    and usage? These will help us establish changes that should be made to the brand
-    strategy for the future.
+    define the companies brand identity; how the company <strong>thinks</strong> their
+    customers see them. Then, we determine the brand image; how customers <strong>actually</strong>
+    perceive the brand. Once we establish these two principles and their differences,
+    we begin to dig deeper. Who is saying what? Why are they saying it? Is it affecting
+    sales and usage? These will help us establish changes that should be made to the
+    brand strategy for the future.
 - Title: The Outcome.
   Paragraph: 'Our brand studies have helped companies with their "makeup" by aligning
     their goals, aesthetic, and ideals with the customer''s perceptions. Marketing
