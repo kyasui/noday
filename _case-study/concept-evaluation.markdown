@@ -3,7 +3,7 @@ title: Concept Evaluation
 date: 2016-08-08 22:56:00 Z
 position: 0
 Logo:
-  logo-image: "/uploads/guys1.png"
+  logo-image: "/uploads/guys1-6310d2.png"
 Short Description: Are industry leaders really mind-reading wizards who know everything
   about their market before everyone else does? NO! They're constantly doing their
   fair share of investigating alongside people like us to find out exactly where the
