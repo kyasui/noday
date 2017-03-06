@@ -3,7 +3,7 @@ title: Brand Exploration
 date: 2016-08-08 22:59:00 Z
 position: 1
 Logo:
-  logo-image: "/uploads/fayette-color.png"
+  logo-image: "/uploads/guys3.png"
 Short Description: "\"The makeup is simply an extension of the personality and colors,
   clothing, makeup all express something.\" -Future prospective Nobel Peace Prize
   winner (in our opinion), Gene Simmons. \n\nBut what is the \"makeup\" of your business,
