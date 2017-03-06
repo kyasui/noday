@@ -3,7 +3,7 @@ title: Customer Relationships
 date: 2016-08-08 22:24:00 Z
 position: 3
 Logo:
-  logo-image: "/uploads/andys-color.png"
+  logo-image: "/uploads/guys2.png"
 Short Description: There are some aspects of business you simply can't cut corners
   on. Arguably, the most important of these is measuring, retaining, and enhancing
   customer relationships and engagement. We help our clients capture the feelings
